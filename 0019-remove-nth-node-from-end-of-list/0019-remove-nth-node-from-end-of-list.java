@@ -35,7 +35,7 @@ class Solution {
         ListNode dummy = new ListNode(-1);
         dummy.next=temp;
         temp=dummy;
-        while (temp!=null&&temp.next!=null){
+        while (temp!=null&&temp!=null){
             count++;
             if (count==n){
                 temp.next=temp.next.next;
