@@ -1,7 +1,6 @@
 class Solution {
     public static int fib(int n) {
         int arr[] = new int[n+2];
-        int a = 0 , b = 1;
         int index=0;
         arr[0]=0;
         arr[1]=1;
