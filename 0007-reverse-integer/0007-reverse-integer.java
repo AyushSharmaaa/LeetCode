@@ -6,7 +6,7 @@ class Solution {
             rev = rev*10+rem;
             num = num/10;
         }
-        if (rev > Math.pow(2, 31)-1 || rev < -(Math.pow(2, 31))) {
+         if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
             return 0;
         }
         return (int) rev;
