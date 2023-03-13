@@ -1,8 +1,6 @@
 class Solution {
      public static boolean isSymmetric(TreeNode root) {
-        if (root==null){
-            return false;
-        }
+        
         return isSymmetricHelper(root.left,root.right);
       }
 
